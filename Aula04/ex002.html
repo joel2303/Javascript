@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste002</title>
+    <style>
+        body {
+            padding: 30px;
+            text-align: center;
+            background-color: rgb(186, 252, 230);
+            color: black;
+            font-size: 25pt;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <script>
+
+        window.alert ("BEM VINDO AO SISTEMAS DE NOTAS")
+        window.alert ("Para descobrir a média final, siga as instruções a seguir!")
+        aluno = window.prompt ("Qual o nome do aluno? ")
+        nota1 = Number (window.prompt ("Primeiro, digite a sua primeira nota: "))
+        nota2 = Number (window.prompt ("Agora, digite a sua segunda nota: "))
+        nota3 = Number (window.prompt ("Por ultimo, digite a sua ultima nota: "))
+        media = (nota1 + nota2 + nota3) / 3
+
+        document.write (`O aluno: <strong>${aluno}</strong>. Cujo as notas foram:<br><br>Nota 1 = ${nota1}<br>Nota 2 = ${nota2}<br>Nota 3  = ${nota3}<br><br>`)
+        
+        document.write (`<big>Ficou com a média final: <strong>${media.toFixed(1)}</strong><br><br></big>`)
+        
+        document.write ("<small><small><strong>A média necessária para ser aprovado é: 7 ou superior. Caso contrário, o aluno estará reprovado.</strong></small></small><br><br>")
+        
+        document.write (`${media >= 7? "Parabéns, com está média final o aluno está <strong>APROVADO</strong>!!" : "A média do aluno está abaixo do necessario para ser aprovado, neste caso ele está <strong>REPROVADO.</strong>"}`)
+
+
+
+    </script>
+    
+</body>
+</html>

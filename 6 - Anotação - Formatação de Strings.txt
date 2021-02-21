@@ -1,0 +1,41 @@
+var s = "JavaScript"
+
+"Eu estou aprendendo s" // Não faz interpolação
+"Eu estou aprendendo" + s // Usa concatenação
+
+ex: "O aluno: " + nome + " idade: " + idade + " tirou a nota: " + nota 
+
+"Eu estou aprendendo ${s}` // Usa Template String
+
+ex: `O aluno ${nome} de ${idade} anos tirou a nota: ${nota}`
+
+Exercicio Pratico:
+
+var n1 = Number (window.prompt ("Digite um numero: ")) // string
+
+var n2 = Number (window.prompt ("Digite outro número: ")) // string
+
+var soma = n1 + n2
+
+window.alert (`A soma entre ${n1} e ${n2} é igual a: ${soma}`)
+
+OUTRAS FORMATAÇÕES
+
+ex:
+
+var s = "JavaScript"
+
+s.length // quantas caracteres a string tem
+
+s.toUpperCase() // tudo para "MAIÚSCULAS"
+
+S.toLowerCase() // tudo para "minusculas"
+
+
+Exercicio pratico:
+
+ var nome = window.prompt("Qual  é o seu nome ?")
+ document.write(`Olá, <strong>${nome}</strong>. seu nome tem: ${nome.length} letras<br>`)
+ document.write(`Seu nome em maiúsculo é: ${nome.toUpperCase()}<br>`)
+ document.write(`Seu nome é minusculo é: ${nome.toLowerCase()}`)
+

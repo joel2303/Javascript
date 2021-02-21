@@ -1,0 +1,32 @@
+Identificadores para JS REGRAS:
+
+1 - Podem começar com LETRA, $ ou _
+
+2 - Não podem começar com NÚMEROS
+
+3 - É possível usar LETRAS ou NÚMEROS
+
+4 - É possível usar ACENTOS e SÍMBOLOS
+
+5 - Não podem conter ESPAÇOS
+
+6 - Não podem ser palavras reservadas
+
+
+
+Dicas 
+- Maiúsculas e minúsculas fazem diferença
+
+- Tente escolher  NOMES COERENTES para as variáveis.
+
+- Evite se tornar um 'Programador alfabeto' ou um 'programador contador'
+
+
+
+COMANDO typeof PARA DESCOBRIR QUAL O TIPO DA VAR
+
+var n1 = 200
+
+ex: typeof n1
+
+number

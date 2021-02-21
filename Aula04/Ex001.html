@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relacionais</title>
+    <style>
+        body {
+            background-color: beige;
+            color: cadetblue;
+            font-size: 25pt;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+        var nome = window.prompt ('Qual o seu nome  ?')
+        var idade = window.prompt ('Qual a sua idade ?') 
+        document.write (`Olá <strong>${nome}</strong>! Seja muito bem vindo. <br>`)
+        document.write (`A sua idade é <strong>${idade}</strong> anos.<br>`)
+        document.write (`${idade >= 18 ?'Parabéns, você é maior de 18 anos pode acessar o site!': 'Infelizmente você é menor de 18 anos e seu acesso não está liberado.'}`)
+    </script>
+</body>
+</html>

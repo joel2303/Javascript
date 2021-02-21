@@ -1,0 +1,24 @@
+Dentro de uma expressão:
+
+1° Se resolve os OPERADORES ARITMÉTICOS em ordem:
+
+() ** / * ... etc
+
+Depois de fazer todos os OPERADORES ARITMÉRICOS
+
+2° Se resolve os OPERADORES RELACIONAIS:
+
+> < >= =< ... etc
+
+Os OPERADORES RELACIONAIS não tem ordem de precedência, quem 
+aparecer primeiro vai ser feito primeiro.
+
+3° Se resolve os OPERADORES LÓGICOS: 
+
+>> SEMPRE EM ORDEM <<
+
+Primeiro o não = !
+
+Segundo o E = &&
+
+e por ultimo o OU = ||

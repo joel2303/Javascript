@@ -1,0 +1,39 @@
+Auto-Atribuições
+
+var n = 3    (A variavel n passa a valer 3)
+
+n = n + 4       = 7
+
+n (Passa agora a valer 7 por causa da soma com o numero 4)
+
+n = n - 5       = 2
+n = n * 4       = 8
+n = n / 2       = 4
+n = n ** 2      = 16
+n = n % 5       = 1 (Isso porque 16 divido por 5 da 3 e resta  1)
+
+SIMPLIFICANDO 
+
+n = n + 4 pode ser simplificada para n += 4 
+
+Mas cuidado, só pode ser usada se a mesma VAR RECEBER ELA MESMO + 4
+
+      
+n -= 5
+n *= 4
+n /= 2
+n **= 2
+n %= 5
+
+INCREMENTOS
+
+var x = 5
+
+x = x + 1          = 6            x += 1
+x = x - 1          = 5            x -= 1
+
+x++ = 6                              x-- = 4
+atualizando vai para 7               atualizando vai para 3
+
++xx = ja vai direto pra 7            --x = ja vai direto para 3
+

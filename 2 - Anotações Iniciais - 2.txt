@@ -1,0 +1,9 @@
+Tipos de Dados das Variáveis: (Tipos Primitivos, lembrando que existem muitas outras!)
+
+Numbers;
+Strings;
+Boolean;
+
+// Numbers: 1; -2; 4.5; 6.555 -> Basicamente números
+// Strings: Maria, Google, Joao, pedreiro, (seu CPF) -> Basicamente cadeia de caracteres
+// Boolean: True; False

@@ -1,0 +1,29 @@
+Operadores lógicos
+
+! Negação
+
+&& Conjunção
+
+|| Disjunção
+
+Exemplos praticos
+
+var a = 5
+var b = 8
+
+a > b && b % 2 == 0 
+
+(Primeiro resolva a aritmetica, no caso o b % 2 = 0 (8/2=4, resta 0)
+está certo, depois resolva a relação a > b, está errado 5 não é maior
+que o 8 então é false, como tem o simbolo de conjunção && e um false
+ja é suficiente pra dar tudo false, a resposta final será FALSE.)
+
+Resposta final: false
+
+a <= b || b / 2 == 2
+
+(Novamente, resolva primeiro a aritmetica, no caso b / 2 == 2 está errado
+pois 8/2 é 4 e não 2 logo essa primeira parte é false, agora a primeira
+a <= b está certo pois 8 é maior que 5, logo essa parte é TRUE
+como estamos usando a disjunção ||, se tiver apenas um true, significa
+que todo o resto é TRUE)

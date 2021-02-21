@@ -1,0 +1,7 @@
+VOCÊ PODE CONVERTER UM NUMERO PARA STRING USANDO
+
+String(n)
+
+ou
+
+n.toString ()

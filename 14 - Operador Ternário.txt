@@ -1,0 +1,5 @@
+Operador ternario é o "?" e o ":" dentro de uma mesma expressão
+
+Ele se chama ternário porque ele tem 3 partes: 
+
+teste ? true : false

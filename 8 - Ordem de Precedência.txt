@@ -1,0 +1,35 @@
+Ordem usada nas contas 
+
+1° lugar  ()
+2° lugar  ** (Potência ou ao qudrado)
+3° lugar  *,  /,  %
+4° lugar  + -
+
+Caso tiver mais operadores do mesmo tipo na conta, realize-se da 
+esquerda para direita >
+
+ex: 20*4 + 20 / 2 
+
+20 / 2 = 10
+20*4 = 80
+10+80 = 90
+
+
+ex 5 + 3 / 2 = 6.5 e não 4
+
+isso porque a conta de divisão "/" será efetuada primeira
+no  caso 3/2 e só depois sera somado com o 5
+
+3/2 = 1.5 + 5 = 6.5
+
+Caso você queira fazer a soma primeiro, você deve usar (PARENTESES)
+para separar a conta
+
+ex.
+
+5 + 3  / 2 = 6.5
+
+(5 + 3) / 2 = 4
+
+Isso porque o () tem prioridade sobre "/" e sobre "*"
+

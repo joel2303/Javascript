@@ -1,0 +1,15 @@
+Use diretamente depois da var os comandos
+
+Number.parseInt 
+
+ou 
+
+Number.parseFloat
+
+int = NUMERO INTEIRO
+
+FLOAT = NUMERO REAL usando numeros com . ex: 5.4
+
+ou
+
+Number (n)

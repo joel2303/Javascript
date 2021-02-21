@@ -1,0 +1,21 @@
+5 + 2 = 7
+
+5 - 2 = 3
+
+5 * 2 = 10
+
+5 / 2 = 2.5
+
+5 % 2 = 1 (% NÃO É PORCENTAGEM, ele é o operador de resto de Div inteira)
+
+EX 5|2 
+   1|2
+
+o 1 = FOI O RESTO DA DIVISÃO, sempre que  entrar uma virgula
+significa que é hora de parar a conta.
+
+5 ** 2 = 25
+
+** = SIGNIFICA POTENCIA OU A CONTA AO  QUADRADO
+
+ex: 5² = 5x5 = 25

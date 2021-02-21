@@ -1,0 +1,29 @@
+RELACIONAIS
+
+> < >= <= == !=
+
+ex
+
+5 > 2 true
+
+7 < 4 false
+
+8 >= 8 true
+
+9 <= 7 false
+
+5 == 5 true
+
+4 != 4 false
+
+IDENTIDADE
+
+5 == 5 > true
+
+5 == '5' > true
+
+=== é usado para somente outros id IDENTICOS
+
+ex: 5 === '5' > false
+
+5 === 5 > true

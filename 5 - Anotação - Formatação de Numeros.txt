@@ -1,0 +1,26 @@
+var n1 = 1543.5
+
+n1
+1543.5
+
+n1.toFixed(2) // o numero significa o numero de casas depois do .
+1543.50
+
+n1.toFixed(2).replace(".", ",") // Usando aspas você pode trocar o . por ,
+'1543,50'
+
+
+========================================================================
+n1.toLocaleString("pt-BR", {style: "currency", currency:"BRL"})     
+'R$ 1.545,50'
+
+Comando usado para formatação ex: Salario
+
+n1.toLocaleString("pt-BR", {style: "currency", currency:"USD"})  
+
+VOCÊ PODE ALTERAR A PROPRIEDADE DENTRO DA CURRENCY PARA ALTERAR O VALOR
+LOCAL
+
+Ex: Trocar BRL por USD, YEN, EUR
+
+
