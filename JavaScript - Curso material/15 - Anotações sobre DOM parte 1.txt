@@ -1,0 +1,31 @@
+Você pode navegar pelo DOM usando as tags
+
+GetElementsByTagName ()[]
+
+GetElementById ()
+
+GetElementsByName ()[]
+
+GetElementsByClassName ()[]
+
+E o ultimo e o mais atual, uma versão melhorada de todos os outros
+por seletor e busca o elemento usando  o css:
+
+ex:  GetElementById("div1")
+
+ex: QuerySelector(div#div1)
+
+querySelector ()
+
+querySelectorAll ()[]
+
+Sempre quando tiver um "s" no  comando Get, significa que você deve 
+colocar [] e que você deve selecionar o elemento por 0,1,2,3 etc
+
+EX. GetElementsByClassName ("div")[0]
+
+No query você usa o SelectorAll ("div")[0], que funciona do mesmo modo.
+
+tag ID você sempre usa # junto com a div
+
+tag Class você sempre usa . junto com a div
