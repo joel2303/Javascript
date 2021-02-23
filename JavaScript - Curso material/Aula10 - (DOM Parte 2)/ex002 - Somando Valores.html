@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando DOM</title>
+    <style>
+        body { 
+            overflow: hidden; 
+        } 
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-image: url(../1-wallpapers-testes/soma.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        div#conta {
+            background-image: url(../1-wallpapers-testes/soma2.jpg);
+            background-position: center;
+            text-align: center;
+            height: 130px;
+            width: 550px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+        
+        div#resul {
+            background-image: url(../1-wallpapers-testes/soma2.jpg);
+            color: rgb(0, 0, 0);
+            height: 130px;
+            width: 550px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            text-align: center;
+        }
+        input {
+            width: 70px;
+            font: normal 13pt arial;
+        }
+        input:focus {
+            box-shadow: 0,0,0,0;
+            outline: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div id="conta">
+            <h1>Somando Valores</h1>
+            <input type="number" name="n1" id="n1"> +
+            <input type="number" name="n2" id="n2">
+            <input type="button" value="somar" onclick="somar()">
+        </div>
+
+        <div id="resul">
+            <h1>Resultado</h1>
+        </div>
+
+    </div>
+    <script>
+        function somar(){
+            var tn1 = window.document.getElementById("n1")
+            var tn2 = window.document.querySelector ("input#n2")
+            var resul = window.document.getElementById("resul")
+
+            var n1 = Number (tn1.value)
+            var n2 = Number (tn2.value)
+            var soma = n1 + n2
+
+            resul.innerHTML = `          <br><br><br><big><big>A soma entre <strong>${n1}</strong> + <strong>${n2}</strong> é: <strong>${soma}</strong>`
+        }
+
+
+    </script>
+
+    
+</body>
+</html>

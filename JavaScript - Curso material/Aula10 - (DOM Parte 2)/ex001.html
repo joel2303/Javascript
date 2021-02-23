@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda parte do DOM</title>
+    <style>
+        div#area {
+            font: normal 20pt arial;
+            background: rgb(129, 129, 129);
+            color: rgb(0, 0, 0);
+            width: 250px;
+            height: 250px;
+            line-height: 250px;
+            text-align: center;
+            border-radius: 30pt;
+
+            /* tentando deixar a div no meio da tela sem usar flexbox*/ 
+            position: absolute;
+            top: 40%; /* posiciona na metade da tela */
+            margin-top: -25px; /* e retrocede metade da altura */
+            right: 40%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="area">
+        Interaja
+    </div>
+
+    <script>
+        var div1 = window.document.getElementById("area")
+
+        div1.addEventListener("click", clicar)
+        div1.addEventListener("mouseenter", entrar)
+        div1.addEventListener("mouseout", sair)
+
+        function clicar (){
+            div1.style.background = "black"
+            div1.style.color = "red"
+            div1.innerText = "Clicou !"
+        }
+        function entrar (){
+            div1.innerText = "Entrou !"
+        }
+        function sair (){
+            div1.innerText = "Saiu !"
+            div1.style.color = "black"
+            div1.style.background ="gray"
+        }
+
+    </script>
+    
+</body>
+</html>

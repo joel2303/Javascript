@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando DOM</title>
+    <style>
+        body {
+            background: rgb(17, 17, 17);
+            color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18pt;
+            padding: 20px;
+        }
+        div#test1 {
+            padding: 30px;
+            border-radius: 30pt;
+            background-image: url(../1-wallpapers-testes/wallpaper1.gif);
+            opacity: 0.3;
+            background-repeat: no-repeat;
+            background-position: center
+        }
+        div#test2 {
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 25pt;
+            background: black;
+            opacity: 0.3;
+            border-radius: 20pt;
+            height: 60px;
+        }
+        div#test2 p {
+            padding-top: 7pt;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="test1">
+    <h1>Iniciando Estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em <strong>JavaScript</strong></p>
+    </div>  
+    
+    <div class="test2"> 
+        <p>Clique em mim</p>
+    </div>
+    <br>
+    <script>
+        var p1 = window.document.getElementsByTagName("p")[1]
+
+        // var d = window.document.getElementsByName("test1") // Aqui estou usando "Name", antes era por "ID" como está na tag.
+
+        // d.style.background = "green"
+        // d.innerText = "Estou Aguardando..."
+
+        // window.document.getElementById("test1").innerText = "Estou aguardando..." << Usando o comando completo sem separar a variavel
+
+        // var d = window.document.getElementsByName("test1")[0] << Buscando por "Name"
+
+        // window.document.getElementsByClassName("test1") << buscando por "Class"
+
+        var d = window.document.querySelectorAll("div")[1]
+
+        d.style.background = "blue"
+        d.style.color = "red"
+
+
+    </script>
+    
+</body>
+</html>
