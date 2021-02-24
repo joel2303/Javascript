@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual pais</title>
+</head>
+
+<body>
+    <h1>Descobrindo se é Estrangeiro ou Brasileiro</h1>
+
+    Escreva qual o seu Pais: <input type="text" id="pais">
+
+    <input type="button" value="Confirmar" onclick="verificar()">
+
+    <div id="resul">
+    </div>
+
+    <script>
+        function verificar() {
+            var pais = document.querySelector("input#pais").value
+            var resul = document.querySelector("div#resul")
+
+            resul.innerHTML = `<p>Vivendo em: ${pais}</p>`
+            if (pais == "Brasil" || pais =="brasil" || pais =="BRASIL") {
+                resul.innerHTML += `<p>Você é <strong>BRASILEIRO!</strong></p>`
+            } else {
+                resul.innerHTML += `<p><br>Você é um <strong>ESTRANGEIRO!</strong></p>`
+            }
+        }
+    </script>
+
+</body>
+
+</html>

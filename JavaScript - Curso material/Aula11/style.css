@@ -1,0 +1,96 @@
+/*Div do fundo geral*/
+div#geral {
+    background-image: url(../1-wallpapers-testes/back3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Parte de cima */
+div.container1 {
+    background-image: url(../1-wallpapers-testes/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 850px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0,0,5,0.2;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 179, 179);
+}
+div#inicio {
+    text-align: center;
+    color: rgb(58, 57, 57);
+    font-size: 17pt;
+    font-family: 'Akaya Telivigala', cursive;
+}
+div#inicio #p1 {
+    font-size: 9pt;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*  Parte do meio lado esquerdo */
+div.container2 {
+    font-weight: 600;
+    background-image: url(../1-wallpapers-testes/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 850px;
+    height: 410px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0,0,5,0.2;
+    border-radius: 5px;
+    border: 2px solid rgb(179, 179, 179);
+    color: rgb(58, 57, 57);
+}
+form#meio1 {
+    border-right: 0.5px solid;
+    width: 50%;
+    float: left;
+    margin: 10px auto;
+    height: 390px; /*Altura da linha*/
+}
+input#nota1, #nota2, #nota3, #nota4 {
+    font-size: 15px;
+    width: 50px;
+    margin: 5px;
+}
+input#serie {
+    font-size: 15px;
+    width: 70px;
+}
+input#nome {
+    font-size: 15px;
+    width: 176px;
+}
+input#nasci {
+    font-size: 15px;
+    width: 135px;
+}
+    
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:focus {
+    box-shadow: 0.,0,0,0;
+    outline: 0;
+}   
+/*  Parte do meio lado Direito*/
+div#meio2{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 4px;
+}
+div#meio2 #para1, #resul3{
+    margin: auto;
+    font-size: 25pt;
+    text-align: center;
+    padding: 2pt;
+}
+div#inferno {
+    padding-right: 5px;
+    margin-right: 30px;
+}
+
