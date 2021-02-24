@@ -9,6 +9,8 @@ function verificar (){
     var resul2 = document.getElementById("resul2")
     var resul3 = document.getElementById("resul3")
 
+    document.querySelector("input#botao").disabled = true;
+
     var media = (nota1 + nota2 + nota3 + nota4) / 4
 
     resul2.innerHTML += `<p>Data de nascimento:</big> ${nasci}</p>`
@@ -18,10 +20,21 @@ function verificar (){
     resul2.innerHTML += `<p>Nota 2: <strong>${nota2}</big></strong></p>`
     resul2.innerHTML += `<p>Nota 3: <strong>${nota3}</big></strong></p>`
     resul2.innerHTML += `<p>Nota 4: <strong>${nota4}</big></strong></p>`
-    resul3.innerHTML += `<p>Média final : ${media.toFixed(1)}</p>`
+    resul3.innerHTML += `Média final : ${media.toFixed(1)}<br>`
+        if (media >= 7){
+            resul3.style.color = "green"
+            resul3.innerHTML += "Aprovado"
+        } else {
+                if (media < 7) {
+                    resul3.style.color = "red"
+                    resul3.innerHTML += "Reprovado"
+                 }
+        }
+        
 }
 
 function resetar () {
     resul2.innerHTML = ""
     resul3.innerHTML = ""
+    document.querySelector("input#botao").disabled = false;
 }
