@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Box {
+    height: 100vh;
+    background-image: url("../1-wallpapers-testes/wallpaper1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Box-meio {
+    max-width: 550px;
+    height: 550px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, .3);
+    color: rgb(32, 32, 32);
+    box-shadow: 0 15px 20px rgba(0,0,0,1);
+}
+.Box-meio h1 {
+    letter-spacing: 3px;
+    padding: 5px;
+    font-size: 30pt;
+    border-bottom: 3px solid;
+    padding-top: 10px;
+}
+.Box-meio p {
+    letter-spacing: 3px;
+    padding: 5px;
+    font-size: 17pt;
+    color: black;
+    text-align: left;
+    margin-left: 75px;
+    padding-top: 5px;
+}
+label {
+    border-bottom: 2px solid black;
+}
+input[type=number]{ 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    outline: none;
+    border: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    font: bold;
+    font-size: 12pt;
+    margin-left: 20px;
+    width: 100px;
+    
+ }
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;  
+}
+::-webkit-input-placeholder {
+    color: rgb(37, 37, 37);
+ }
+#enviar1 {
+    background-color:  rgba(201, 201, 201, 0.3);
+    outline: none;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+}
+#enviar {
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 80px;
+    font-size: 20px;
+    color:black;
+}
+#resul1 {
+    color:black;
+    padding-top: 20px;
+    font-size: 22pt;
+
+}
+#img {
+    display: none;
+    width: 390px;
+    height: 150px;
+    padding-top: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
