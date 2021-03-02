@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(images/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font: normal 15pt arial;
+}
+
+header {
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: center;
+    font-size: 22pt;
+}
+
+section {
+    background: rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.514);
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}

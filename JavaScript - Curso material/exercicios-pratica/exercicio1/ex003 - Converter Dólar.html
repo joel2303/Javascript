@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando um pouco.</title>
+    <style>
+        body {
+            padding: 20px;
+            text-align: center;
+            background: darkgrey;
+            color: black;
+            font-size: 20pt;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        window.alert ("Bem vindo, irei te ajudar a converter qualquer valor em real para Dólar!")
+        reais = Number (window.prompt ("Quantos reais você deseja converter ?"))
+        dolar = reais / 5.38
+
+        document.write ("<big<big>O preço do Dólar atualmente é: <small><strong>5.38US.</small></strong><br><br>")
+        
+        document.write (`O seu valor digitado foi: <small><strong>${reais.toLocaleString("pt-BR", {style: "currency", currency: "BRL"})}.</small></strong><br><br>`)
+
+        document.write (`O valor total digitado foi convertido para: <strong> <big>${dolar.toLocaleString("pt-BR", {style: "currency", currency: "USD"})}.</strong><br><br>`)
+
+        document.write ("Obrigado por me utilizar, espero ter sido útil. <big><big><strong><br>=)")
+
+
+    </script>
+    
+</body>
+</html>
