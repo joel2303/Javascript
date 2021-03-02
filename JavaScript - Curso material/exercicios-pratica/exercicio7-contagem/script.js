@@ -4,6 +4,7 @@ function contar (){
     var passo = Number (document.getElementById ("passo").value)
     var resul = document.getElementById ("resul")
     var p1 = document.getElementById ("p1")
+
    
    for (var c = inicio; c <= fim ; c = c + passo) {
         resul.innerHTML += `${c} `
