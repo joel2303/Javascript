@@ -3,7 +3,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-image: url(images/background1.png);
+    background-image: url(images/backgroun3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font: normal 15pt arial;
@@ -16,12 +16,22 @@ header {
 }
 
 section {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(209, 203, 203, 0.5);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.514);
+    text-align: center;
+}
+#msg {
+    padding: 15px;
+}
+
+#imagem {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
 
 footer {
@@ -29,3 +39,5 @@ footer {
     font-style: italic;
     font-size: 16px;
 }
+
+
