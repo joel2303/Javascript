@@ -5,24 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-
+        <p>Tabuadas !</p>
     </header>
-    
+
     <section>
-        <div>
-
+        <div id="box1">
+            <h1>Tabuada</h1>
+            <p>Escolha qual tabuada deseja saber: </p>
+            <form action="">
+            <input type="number" placeholder="Ex: 1" min="1" id="tabu">
+            <input type="button" value="Verificar" id="botton2" onclick="verificar()">
+            <input type="reset" value="Resetar" id="botton1" onclick="resetar()">
+            </form>
+            <p id="para2">Clique em resetar logo a cima para escolher outra tabuada !</p>
         </div>
-        <div>
-
+        <div id="box2">
+            <h1>Resultado</h1>
+            <p id="para1">Essa é a tabuada que você escolheu: </p>
+            <p id="resul"></p>
         </div>
     </section>
 
     <footer>
-
+        @JoelJ.Silva
     </footer>
-    
+<script src="script.js"></script>
 </body>
 </html>

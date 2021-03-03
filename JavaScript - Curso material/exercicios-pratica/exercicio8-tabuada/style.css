@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(112, 104, 104, 0.178);
+}
+header {
+    padding: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35pt;
+    font-family: 'Akaya Kanadaka', cursive;
+    letter-spacing: 3px;
+}
+section {
+    background-color: rgba(11, 83, 1, 0.767);
+    width: 800px;
+    height: 370px;
+    padding: 15px;
+    margin: auto;
+    border: rgb(112, 56, 15);
+    border-width: 20px;
+    border-style: solid;
+    border-radius: 5px;
+}
+#box1 {
+    float: left;
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 18pt;
+    width: 350px;
+    height: 320px;
+}
+#box2 {
+    float: right;
+    text-align: center;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 18pt;
+    width: 350px;
+    height: 320px;
+}
+#botton1 {
+    border-radius: 4px;
+    outline: none;
+    background: black;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#botton2 {
+    border-radius: 4px;
+    outline: none;
+    background: black;
+    color: white;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#para1 {
+    display: none;
+}
+#para2 {
+    display: none;
+}
+#resul {
+    display: none;
+    font-size: 17px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: rgb(0, 0, 0);
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    color: rgb(3, 3, 3);
+    letter-spacing: 5px;
+    padding-top: 50px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;  
+}
+input[type=number]{ 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    outline: none;
+    border: none;
