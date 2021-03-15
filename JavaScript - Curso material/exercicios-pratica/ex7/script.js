@@ -10,11 +10,15 @@ function contar (){
         resul.innerHTML = "Impossivel contar."
     } else {
         resul2.innerHTML = "Tudo correto,<br><br> o resultado irá aparecer abaixo!"
-        resul.innerHTML = "Contando: "
+        resul.innerHTML = "Contando: <br><br> "
 
         var i = Number (inicio.value)
         var f = Number (fim.value)
         var p = Number (passo.value)
+        if (p <= 0){
+            alert("Passo invalido ! considerando PASSO 1")
+            p = 1
+        }
 
         if (i < f) {
             // Contagem crescente
@@ -33,7 +37,7 @@ function contar (){
         
     }
 
-function resetar(){
+function resetar1(){
     var resul2 = document.getElementById ("resul2")
     var resul = document.getElementById ("resul")
 
