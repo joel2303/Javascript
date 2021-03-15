@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar !</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <form action="resetar" id="form">
+            <p>Início: <input type="number" id="inicio"></p>
+            <p>Fim: <input type="number" name="" id="fim"></p>
+            <p>Passo: <input type="number" name="" id="passo"></p>
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" value="Contar" id="contar" onclick="contar()"></td>
+                    <td><input type="reset" form="form" value="Resetar" id="resetar" onclick="resetar()"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="direita">
+            <p id="resul2">
+                Preencha os <br><br> dados ao lado <br><br> para dar inicio <br><br> a contagem !
+            </p>
+        </div>
+        <div id="resul">
+            Preparando contagem ...
+        </div>
+    </section>
+    <footer>
+        @JoelJ.Silva
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
